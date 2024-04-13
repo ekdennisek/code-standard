@@ -1,0 +1,23 @@
+{
+    "name": "@ekdennisek/code-standard",
+    "version": "1.0.0",
+    "description": "Rules for linters, code formatters, and so on",
+    "scripts": {
+        "test": "prettier --check src",
+        "prepublishOnly": "npm test"
+    },
+    "author": "Dennis Ek <dennis@dennisek.se>",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^3.2.5"
+    },
+    "exports": {
+        ".": "./src",
+        "./prettier": "./src/prettier/index.json"
+    },
+    "homepage": "https://github.com/ekdennisek/code-standard",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ekdennisek/code-standard.git"
+    }
+}
