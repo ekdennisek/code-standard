@@ -1,6 +1,6 @@
 {
     "name": "@ekdennisek/code-standard",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Rules for linters, code formatters, and so on",
     "scripts": {
         "test": "prettier --check src",
@@ -13,8 +13,8 @@
     },
     "exports": {
         ".": "./src",
-        "./eslint": "./src/eslint/index.js",
-        "./prettier": "./src/prettier/index.json"
+        "./eslint": "./src/eslint/index.mjs",
+        "./prettier": "./src/prettier/index.mjs"
     },
     "homepage": "https://github.com/ekdennisek/code-standard",
     "repository": {
