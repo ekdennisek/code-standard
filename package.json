@@ -1,6 +1,6 @@
 {
     "name": "@ekdennisek/code-standard",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Rules for linters, code formatters, and so on",
     "scripts": {
         "build": "tsc",
